@@ -1,5 +1,6 @@
-### Hi there 👋
+### Chidinma Nze
 
+Web developer with a studying full-stack web development from Michigan State University. With a background in graphic design and communications, I strive to create intuitive solutions for end users. 
 <!--
 **chidinmanze/chidinmanze** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
