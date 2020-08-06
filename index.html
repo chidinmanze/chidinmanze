@@ -1,38 +1,160 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chidinma Nze</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+      integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Chidinma Nze</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous"> 
-  <link rel="stylesheet" href="./style.css">
-</head>
+  <body>
+  <div class="container-fluid" id="home">
+            <h1>Chidinma Nze</h1>
+            <p id="title">Full-Stack Web Developer</p>
 
-<body>
-<div class ="container-fluid">
-  
-  <h1>Chidinma Nze</h1>
-<p>Full-Stack Web Developer</p>
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="#about"
+                    >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#projects"
+                  target="_blank"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#resume"
+                  target="_blank"
+                  >Resume</a
+                >
+              </li>
+              
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#contact"
+                  target="_blank"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            
+      <br>
+      <br>
+          
 
-<a href="https://github.com/chidinmanze/chidinmanze" target="_blank"> GitHub</a>
-<br>
-<a href="https://www.linkedin.com/in/cnze/" target="_blank">LinkedIn</a>
-
-<h2>Projects</h2>
-
-<p>WeatherDine</p>
-
-<p>Coding Quiz</p>
-
-<p>Password Generator</p>
-
-<p>Weather Dashboard</p>
-
-<p>Daily Planner</p>
-
-<p>Travel Memory Portfolio</p>
+      <div class="row" id="about">
+        <div class="col-sm">
+          <h2 id="about">About</h2>
+          <img src="assets/CNzeCircle.png" alt="Picture of Chidinma Nze" id="me">
+          <p>Hello, I'm Chidinma Nze, web developer earning a certificate in full-stack web development from Michigan State University. In addition to HTML, CSS, and Javascript, I am learning the MERN stack, (MongoDB, Express.js, React.js, Node.js).
+          </p>
+          <p>Visit my LinkedIn and GitHub pages to learn more about me:</p>
+          <a href="https://github.com/chidinmanze/chidinmanze" target="_blank"><img src="assets/githublogo.png"  alt= "GitHub logo"></a>
+          <br>
+          <br>
+          <a href="https://www.linkedin.com/in/cnze/" target="_blank"><img src="assets/linkedinlogo.jpg"  alt= "LinkedIn logo"></a>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+        </div>
+        <div class="row" id="projects">
+          <div class="col-sm">
+            <h2>Projects</h2>
+            <p id="proj">Here are a few of the projects I've worked on.</p>
+          </div>
+        </div>
+        <div class="row" id="projectcards"></div>
+          <div class="card-group">
+            <div class="card">
+              <img src="./assets/WeatherDine.JPG" class="card-img-top" alt="WeatherDine screenshot">
+              <div class="card-body">
+                <h5 class="card-title">WeatherDine</h5>
+                <p class="card-text">WeatherDine is a website that helps travelers make their travel plans a little smoother by providing weather and restaurants information when a city is searched.S</p>
+                <a href="https://chidinmanze.github.io/project1/" target="_blank"><button type="button" class="btn btn-dark">WeatherDine Site</button></a>
+                <a href="https://github.com/chidinmanze/project1" target="_blank"><button type="button" class="btn btn-dark">Github Repository</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/CodingQuiz.JPG" class="card-img-top" alt="Coding Quiz screenshot">
+              <div class="card-body">
+                <h5 class="card-title">Coding Quiz</h5>
+                <p class="card-text">The coding quiz is a short multiple-choice activity where users will answer 7 questions on a few basics of web development.</p>
+                <a href="https://chidinmanze.github.io/codingquiz/" target="_blank"><button type="button" class="btn btn-dark">Coding Quiz Site</button></a>
+                <a href="https://github.com/chidinmanze/codingquiz" target="_blank"><button type="button" class="btn btn-dark">Github Repository</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/PasswordGenerator.JPG" class="card-img-top" alt="Password Generator screenshot">
+              <div class="card-body">
+                <h5 class="card-title">Password Generator</h5>
+                <p class="card-text">The password generator in this project is designed to allow users to generate a uniqe password between 8 and 128 characters. </p>
+                <a href="https://chidinmanze.github.io/passwordgenerator/" target="_blank"><button type="button" class="btn btn-dark">Password Generator</button></a>
+                <a href="https://github.com/chidinmanze/passwordgenerator" target="_blank"><button type="button" class="btn btn-dark">Github Repository</button></a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="row" id="second-projectcards"></div>
+          <div class="card-group">
+            <div class="card">
+              <img src="./assets/WeatherDashboard.JPG" class="card-img-top" alt="Weather Dashboard screenshot">
+              <div class="card-body">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="card-text">The Weather Dashboard allows users to get current and forecasted weather for the next five days when searching any city.</p>
+                <a href="https://chidinmanze.github.io/weatherdashboard/" target="_blank"><button type="button" class="btn btn-dark">Weather Dashboard</button></a>
+                <a href="https://github.com/chidinmanze/weatherdashboard" target="_blank"><button type="button" class="btn btn-dark">Github Repository</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/Travel.JPG" class="card-img-top" alt="Travel Portfolio screenshot">
+              <div class="card-body">
+                <h5 class="card-title">Responsive Travel Portfolio</h5>
+                <p class="card-text">The goal of this project was to create a responsive portfolio website. I did this using the Bootsrap grid system. The site displays well on devices of all sizes.</p>
+                <a href="https://chidinmanze.github.io/travelmemoryportfolio/index.html" target="_blank"><button type="button" class="btn btn-dark">Travel Portfolio</button></a>
+                <a href="https://github.com/chidinmanze/travelmemoryportfolio" target="_blank"><button type="button" class="btn btn-dark">Github Repository</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/Horiseon.JPG" class="card-img-top" alt="Horiseon screenshot">
+              <div class="card-body">
+                <h5 class="card-title">Horiseon Code Refactor</h5>
+                <p class="card-text">For this project, the primary goal was to make the HTML and CSS files readable and well-organized.</p>
+                <a href="https://chidinmanze.github.io/horiseondemo/" target="_blank"><button type="button" class="btn btn-dark">Horiseon Site</button></a>
+                <a href="https://github.com/chidinmanze/horiseondemo" target="_blank"><button type="button" class="btn btn-dark">Github Repository</button></a>
+              </div>
+            </div>
+          </div>
+          </div>
+    <div class="row" id="resume">
+      <div class="col">
+        <h2 id="resume-header">Resume</h2>
+              <a href="./assets/ChidinmaNzeResume2020.pdf" target="_blank" id="get-resume"><button type="button" class="btn btn-primary">Click here to view my resume</button></a>
+      </div>
+    </div>      
+    <div class="row" id="contact">
+      <div class="col justify-content-center" id="contact-info">
+        <h2>Contact</h2>
+        <a href = "mailto: chidinma.ogbuaku@gmail.com">chidinma.ogbuaku@gmail.com</a>
+        <p>734.334.3184</p>
+      </div>
+    </div>
 </div>
-
-</body>
-
+  </body>
 </html>
