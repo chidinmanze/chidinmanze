@@ -37,7 +37,6 @@ h4{
 
 
 
-
 #me{
     border-radius:100px;
    margin: auto;display: block;
@@ -81,6 +80,7 @@ p {
     background-image: url('ResumeImage.png');
     height: 200px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #resume-header {
@@ -101,5 +101,6 @@ p {
     text-align: center;
     height: 150px;
     padding-top: 10px;
+    margin-bottom: 10px;
    
 }
